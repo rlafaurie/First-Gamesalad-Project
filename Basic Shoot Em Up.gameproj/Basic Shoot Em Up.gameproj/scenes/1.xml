@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<scene PGFVersion="0.17" GSCVersion="0.9.91" id="id269551">
+<scene PGFVersion="0.19" GSCVersion="0.10.5" id="id781812">
   <layers>
-    <layer id="id112326">
+    <layer id="id433223">
       <actors>
-        <actor id="id354621" prototype="id930615">
+        <actor id="id366184" prototype="id591440">
           <attributes>
             <point id="position">
-              <real id="x">241</real>
-              <real id="y">159</real>
+              <real id="x">239</real>
+              <real id="y">207.5</real>
             </point>
-            <size id="size">
-              <real id="width">487</real>
-              <real id="height">327</real>
-            </size>
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -24,88 +23,23 @@
             </physics>
           </aspects>
         </actor>
-        <actor id="id326695" prototype="id926383">
+        <actor id="id315793" prototype="id289207">
           <attributes>
             <point id="position">
-              <real id="x">406.5</real>
-              <real id="y">293</real>
-            </point>
-          </attributes>
-          <aspects>
-            <graphics>
-              <attributes />
-            </graphics>
-            <motion />
-            <physics>
-              <attributes />
-            </physics>
-          </aspects>
-        </actor>
-        <actor id="id735507" prototype="id472900">
-          <attributes>
-            <point id="position">
-              <real id="x">507.5</real>
-              <real id="y">27.5</real>
-            </point>
-          </attributes>
-          <aspects>
-            <graphics>
-              <attributes />
-            </graphics>
-            <motion />
-            <physics>
-              <attributes />
-            </physics>
-          </aspects>
-        </actor>
-        <actor id="id123589" prototype="id768623">
-          <attributes>
-            <point id="position">
-              <real id="x">106</real>
-              <real id="y">166.5</real>
-            </point>
-          </attributes>
-          <aspects>
-            <graphics>
-              <attributes />
-            </graphics>
-            <motion />
-            <physics>
-              <attributes />
-            </physics>
-          </aspects>
-        </actor>
-        <actor id="id585140" prototype="id779656">
-          <attributes>
-            <point id="position">
-              <real id="x">533</real>
-              <real id="y">31</real>
-            </point>
-          </attributes>
-          <aspects>
-            <graphics>
-              <attributes />
-            </graphics>
-            <motion />
-            <physics>
-              <attributes />
-            </physics>
-          </aspects>
-        </actor>
-        <actor id="id629199" prototype="id846875">
-          <attributes>
-            <point id="position">
-              <real id="x">234</real>
-              <real id="y">298.5</real>
+              <real id="x">240</real>
+              <real id="y">82</real>
             </point>
             <size id="size">
               <real id="width">100</real>
-              <real id="height">100</real>
+              <real id="height">45</real>
             </size>
           </attributes>
           <aspects>
             <graphics>
-              <attributes />
+              <attributes>
+                <integer id="tileWidth" name="tileWidth">0</integer>
+                <integer id="tileHeight" name="tileHeight">0</integer>
+              </attributes>
             </graphics>
             <motion />
             <physics>
@@ -121,7 +55,7 @@
     </layer>
   </layers>
   <attributes>
-    <text id="name">Initial Scene</text>
+    <text id="name">Victory</text>
     <real id="time">0</real>
     <size id="size">
       <real id="width">480</real>
@@ -150,7 +84,7 @@
       </size>
       <size id="trackingArea">
         <real id="width">400</real>
-        <real id="height">260</real>
+        <real id="height">240</real>
       </size>
       <real id="rotation">0</real>
     </rect>

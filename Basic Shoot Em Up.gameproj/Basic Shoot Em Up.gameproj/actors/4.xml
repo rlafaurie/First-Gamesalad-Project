@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id768623" PGFVersion="0.17" GSCVersion="0.9.91">
+<actor id="id768623" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
     <text id="name">ship</text>
     <real id="time">0</real>
@@ -30,7 +30,7 @@
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id564997" eventType="key">
+        <condition id="id564997" eventType="key" pluginPredicateTypeIndex="0">
           <attributes>
             <index id="conditionType">0</index>
             <text id="name">default name</text>
@@ -43,7 +43,7 @@
             </attributes>
           </predicate>
         </condition>
-        <condition id="id138624" eventType="mouse button">
+        <condition id="id138624" eventType="mouse button" pluginPredicateTypeIndex="0">
           <attributes>
             <index id="conditionType">1</index>
             <text id="subjectAttribute">self.attributes.position.x</text>
@@ -78,7 +78,7 @@
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id564997" eventType="key">
+        <condition id="id564997" eventType="key" pluginPredicateTypeIndex="0">
           <attributes>
             <index id="conditionType">0</index>
             <text id="name">default name</text>
@@ -91,7 +91,7 @@
             </attributes>
           </predicate>
         </condition>
-        <condition id="id835124" eventType="mouse button">
+        <condition id="id835124" eventType="mouse button" pluginPredicateTypeIndex="0">
           <attributes>
             <index id="conditionType">1</index>
             <text id="subjectAttribute">self.attributes.position.x</text>
@@ -126,7 +126,7 @@
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id564997" eventType="key">
+        <condition id="id564997" eventType="key" pluginPredicateTypeIndex="0">
           <attributes>
             <index id="conditionType">0</index>
             <text id="name">default name</text>
@@ -139,7 +139,7 @@
             </attributes>
           </predicate>
         </condition>
-        <condition id="id675185" eventType="mouse button">
+        <condition id="id675185" eventType="mouse button" pluginPredicateTypeIndex="0">
           <attributes>
             <index id="conditionType">1</index>
             <text id="subjectAttribute">self.attributes.position.y</text>
@@ -174,7 +174,7 @@
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id564997" eventType="key">
+        <condition id="id564997" eventType="key" pluginPredicateTypeIndex="0">
           <attributes>
             <index id="conditionType">0</index>
             <text id="name">default name</text>
@@ -187,7 +187,7 @@
             </attributes>
           </predicate>
         </condition>
-        <condition id="id145470" eventType="mouse button">
+        <condition id="id145470" eventType="mouse button" pluginPredicateTypeIndex="0">
           <attributes>
             <index id="conditionType">1</index>
             <text id="subjectAttribute">self.attributes.position.y</text>
@@ -222,7 +222,7 @@
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id925895" eventType="key">
+        <condition id="id925895" eventType="key" pluginPredicateTypeIndex="0">
           <attributes>
             <index id="conditionType">0</index>
             <text id="name">default name</text>
@@ -313,6 +313,8 @@
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
+        <integer id="tileWidth" name="tileWidth">0</integer>
+        <integer id="tileHeight" name="tileHeight">0</integer>
       </attributes>
     </graphics>
     <motion>

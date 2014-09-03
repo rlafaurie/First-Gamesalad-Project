@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<assets PGFVersion="0.17" GSCVersion="0.9.91">
+<assets PGFVersion="0.19" GSCVersion="0.10.5">
   <sounds>
     <sound name="laser">
       <file name="laser.ogg" size="18422" />

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<actor id="id167738" PGFVersion="0.17" GSCVersion="0.9.91">
+<actor id="id167738" PGFVersion="0.19" GSCVersion="0.10.5">
   <attributes>
     <text id="name">enemy</text>
     <real id="time">0</real>
@@ -41,7 +41,7 @@
         <real id="compoundConditionKind">0</real>
       </attributes>
       <conditions>
-        <condition id="id881060" eventType="overlaps or collides">
+        <condition id="id881060" eventType="overlaps or collides" pluginPredicateTypeIndex="0">
           <attributes>
             <index id="conditionType">0</index>
             <text id="name">default name</text>
@@ -71,7 +71,7 @@
             <text id="RHS">
               <expression>
                 <reference keypath="game.attributes.id351029" />
-                <string>+10</string>
+                <string xml:space="preserve">+10</string>
               </expression>
             </text>
           </attributes>
@@ -104,6 +104,8 @@
         <enumeration id="verticalAnchor">0</enumeration>
         <boolean id="flipHorizontally">false</boolean>
         <boolean id="flipVertically">false</boolean>
+        <integer id="tileWidth" name="tileWidth">0</integer>
+        <integer id="tileHeight" name="tileHeight">0</integer>
       </attributes>
     </graphics>
     <motion>
