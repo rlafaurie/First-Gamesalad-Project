@@ -77,9 +77,9 @@
           </attributes>
           <predicate type="collision">
             <attributes>
-              <text id="prototypeKey">id930615</text>
+              <text id="prototypeKey">id962465</text>
               <text id="actorTag">Enemy Targets</text>
-              <real id="mode">1</real>
+              <real id="mode">0</real>
             </attributes>
           </predicate>
         </condition>
