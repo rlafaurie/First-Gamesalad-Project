@@ -24,6 +24,8 @@ http://gamesalad.com/wiki/tutorials:basic_shoot_em_up</instructions>
     <actor id="id503528" />
     <actor id="id962465" />
     <actor id="id524500" />
+    <actor id="id488800" />
+    <actor id="id777849" />
   </prototypes>
   <plugins>
     <attributes id="kiip">

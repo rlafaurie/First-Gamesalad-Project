@@ -11,7 +11,7 @@
       <real id="width">64</real>
       <real id="height">32</real>
     </size>
-    <angle id="rotation">0</angle>
+    <angle id="rotation">180</angle>
     <color id="color">
       <real id="red">1</real>
       <real id="green">1</real>
