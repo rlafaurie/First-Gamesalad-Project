@@ -33,11 +33,12 @@
         <condition id="id263756" eventType="mouse button" pluginPredicateTypeIndex="0">
           <attributes>
             <index id="conditionType">1</index>
-            <text id="subjectAttribute">game.attributes.id148203</text>
+            <text id="subjectAttribute">game.attributes.id314870</text>
           </attributes>
-          <predicate type="boolean">
+          <predicate type="number">
             <attributes>
-              <index id="RHS">0</index>
+              <text id="operator">&lt;=</text>
+              <real id="RHS">0</real>
             </attributes>
           </predicate>
         </condition>
@@ -61,8 +62,30 @@
           </attributes>
         </behavior>
       </behaviors>
-      <elseBehaviors>
-        <behavior id="id524673" class="DisplayTextBehavior" enabled="true">
+    </behavior>
+    <behavior id="id319845" class="RuleBehavior" enabled="true">
+      <attributes>
+        <text id="name">Rule</text>
+        <text id="bundleName">Rule.behavior</text>
+        <real id="compoundConditionKind">0</real>
+      </attributes>
+      <conditions>
+        <condition id="id144071" eventType="mouse position" pluginPredicateTypeIndex="0" class="AttributeCondition">
+          <attributes>
+            <index id="conditionType">1</index>
+            <text id="subjectAttribute">game.attributes.id674213</text>
+            <text id="name">default name</text>
+          </attributes>
+          <predicate type="number">
+            <attributes>
+              <text id="operator">&lt;=</text>
+              <real id="RHS">0</real>
+            </attributes>
+          </predicate>
+        </condition>
+      </conditions>
+      <behaviors>
+        <behavior id="id278322" class="DisplayTextBehavior" enabled="true">
           <attributes>
             <text id="name">Display Text</text>
             <text id="bundleName">DisplayText.behavior</text>
@@ -79,7 +102,15 @@
             </color>
           </attributes>
         </behavior>
-      </elseBehaviors>
+        <behavior id="id718162" class="ChangeSceneAction" enabled="true">
+          <attributes>
+            <text id="name">Change Scene</text>
+            <text id="bundleName">ChangeScene.behavior</text>
+            <text id="sceneKey">id781812</text>
+            <boolean id="enableAdvertisement">false</boolean>
+          </attributes>
+        </behavior>
+      </behaviors>
     </behavior>
   </behaviors>
   <aspects>

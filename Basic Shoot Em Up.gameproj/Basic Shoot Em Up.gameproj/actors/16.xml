@@ -140,6 +140,20 @@
             <index id="layerOrder">0</index>
           </attributes>
         </behavior>
+        <behavior id="id307433" class="ChangeSceneAction" enabled="true">
+          <attributes>
+            <text id="name">Change Scene</text>
+            <text id="bundleName">ChangeScene.behavior</text>
+            <text id="sceneKey">id781812</text>
+            <boolean id="enableAdvertisement">false</boolean>
+          </attributes>
+        </behavior>
+        <behavior id="id641658" class="DestroyAction" enabled="true">
+          <attributes>
+            <text id="name">Destroy</text>
+            <text id="bundleName">Destroy.behavior</text>
+          </attributes>
+        </behavior>
       </behaviors>
     </behavior>
     <behavior id="id890811" class="TimerBehavior" enabled="true">
