@@ -84,6 +84,9 @@
     <image name="missile">
       <file name="missile.png" size="1605" />
     </image>
+    <image name="Bullet Bill">
+      <file name="Bullet Bill.png" size="2015" />
+    </image>
   </images>
   <behaviors />
 </assets>
